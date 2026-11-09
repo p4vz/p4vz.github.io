@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Pavel Aprelev - Projects</title>
+<meta name="description" content="Side projects I build in my spare time, mostly with Claude Code: simulations, games, agent tooling and small apps for my family.">
+<style>
+:root{--bg:#faf8f4;--fg:#2b2620;--muted:#6f675c;--line:#e4ddd2;--card:#fff;--accent:#2f6f5e}
+@media (prefers-color-scheme:dark){:root{--bg:#1b1a18;--fg:#ece7df;--muted:#a59d90;--line:#35322d;--card:#24221f;--accent:#7cc4ad}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif}
+main{max-width:860px;margin:0 auto;padding:48px 20px 80px}a{color:var(--accent)}
+h1{font-size:1.9rem;margin:0 0 .3rem}.intro{color:var(--muted);margin:0}
+.grid{display:grid;gap:14px;margin-top:28px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px 20px}
+.card h2{margin:0 0 .3rem;font-size:1.15rem}.card p{margin:0}
+.tags{margin-top:.6rem;display:flex;gap:6px;flex-wrap:wrap}
+.tag{font-size:.75rem;border:1px solid var(--line);border-radius:99px;padding:1px 9px;color:var(--muted)}
+.links{margin-top:.6rem;display:flex;gap:16px;flex-wrap:wrap}
+footer{margin-top:40px;font-size:.85rem;color:var(--muted)}
+</style>
+</head>
+<body>
+<main>
+  <h1>Pavel Aprelev - Projects</h1>
+  <p class="intro">Side projects I build in my spare time, mostly with Claude Code: simulations, games, agent tooling and small apps for my family.</p>
+  <div class="grid">
+    <section class="card">
+      <h2>Petrium</h2>
+      <p>A cellular-evolution simulator turning into a puzzle game. Design cells by editing their DNA, then guide colonies through resource, toxin and rival pressure. Runs entirely in the browser.</p>
+      <div class="tags"><span class="tag">game</span><span class="tag">simulation</span><span class="tag">TypeScript</span></div>
+      <div class="links"><a href="https://petrium.io" rel="noopener">Play at petrium.io</a></div>
+    </section>
+    <section class="card">
+      <h2>Kids&#39; tablet games</h2>
+      <p>Ad-free, tracking-free games built for cheap tablets: a coloring and dress-up app, plus small arcade games (a rhythm platformer, slime sports and a turn-based tank game).</p>
+      <div class="tags"><span class="tag">games</span><span class="tag">PWA</span><span class="tag">Android</span></div>
+      <div class="links"><a href="https://p4vz.github.io/coloring-game/" rel="noopener">Coloring &amp; dress-up</a><a href="https://p4vz.github.io/danyas-games/" rel="noopener">Arcade games</a></div>
+    </section>
+    <section class="card">
+      <h2>Labyrinthium</h2>
+      <p>A web version of the pen-and-paper game Labyrinth: the computer holds a hidden multi-level maze, players explore blind and draw their own maps. Includes a Bayesian bot opponent.</p>
+      <div class="tags"><span class="tag">game</span><span class="tag">open source</span></div>
+      <div class="links"><a href="https://github.com/p4vz/labyrinthium" rel="noopener">Source on GitHub</a></div>
+    </section>
+    <section class="card">
+      <h2>Philly commuter bot</h2>
+      <p>A morning commute briefing for the Philadelphia area: SEPTA alerts and trains, traffic, weather and routes, delivered over Telegram and as a tool AI assistants can call.</p>
+      <div class="tags"><span class="tag">bot</span><span class="tag">open source</span><span class="tag">Python</span></div>
+      <div class="links"><a href="https://github.com/p4vz/septabot" rel="noopener">Source on GitHub</a></div>
+    </section>
+    <section class="card">
+      <h2>Agent team manager</h2>
+      <p>A dashboard for running teams of AI coding agents (supervisors, builders and challengers) against a project, each in its own workspace, with per-project team configurations.</p>
+      <div class="tags"><span class="tag">AI agents</span><span class="tag">private</span></div>
+    </section>
+    <section class="card">
+      <h2>Family apps</h2>
+      <p>Private apps for my family: a multilingual family-history tree built from letters, interviews and photos, a trip planner with offline itineraries and allergy-safe dining, and a fitness coaching backend.</p>
+      <div class="tags"><span class="tag">private</span></div>
+    </section>
+  </div>
+  <footer><a href="https://github.com/p4vz">github.com/p4vz</a></footer>
+</main>
+</body>
+</html>

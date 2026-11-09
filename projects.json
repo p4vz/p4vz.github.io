@@ -1,0 +1,45 @@
+{
+  "title": "Pavel Aprelev - Projects",
+  "intro": "Side projects I build in my spare time, mostly with Claude Code: simulations, games, agent tooling and small apps for my family.",
+  "projects": [
+    {
+      "name": "Petrium",
+      "summary": "A cellular-evolution simulator turning into a puzzle game. Design cells by editing their DNA, then guide colonies through resource, toxin and rival pressure. Runs entirely in the browser.",
+      "tags": ["game", "simulation", "TypeScript"],
+      "links": [{ "label": "Play at petrium.io", "url": "https://petrium.io" }]
+    },
+    {
+      "name": "Kids' tablet games",
+      "summary": "Ad-free, tracking-free games built for cheap tablets: a coloring and dress-up app, plus small arcade games (a rhythm platformer, slime sports and a turn-based tank game).",
+      "tags": ["games", "PWA", "Android"],
+      "links": [
+        { "label": "Coloring & dress-up", "url": "https://p4vz.github.io/coloring-game/" },
+        { "label": "Arcade games", "url": "https://p4vz.github.io/danyas-games/" }
+      ]
+    },
+    {
+      "name": "Labyrinthium",
+      "summary": "A web version of the pen-and-paper game Labyrinth: the computer holds a hidden multi-level maze, players explore blind and draw their own maps. Includes a Bayesian bot opponent.",
+      "tags": ["game", "open source"],
+      "links": [{ "label": "Source on GitHub", "url": "https://github.com/p4vz/labyrinthium" }]
+    },
+    {
+      "name": "Philly commuter bot",
+      "summary": "A morning commute briefing for the Philadelphia area: SEPTA alerts and trains, traffic, weather and routes, delivered over Telegram and as a tool AI assistants can call.",
+      "tags": ["bot", "open source", "Python"],
+      "links": [{ "label": "Source on GitHub", "url": "https://github.com/p4vz/septabot" }]
+    },
+    {
+      "name": "Agent team manager",
+      "summary": "A dashboard for running teams of AI coding agents (supervisors, builders and challengers) against a project, each in its own workspace, with per-project team configurations.",
+      "tags": ["AI agents", "private"],
+      "links": []
+    },
+    {
+      "name": "Family apps",
+      "summary": "Private apps for my family: a multilingual family-history tree built from letters, interviews and photos, a trip planner with offline itineraries and allergy-safe dining, and a fitness coaching backend.",
+      "tags": ["private"],
+      "links": []
+    }
+  ]
+}
